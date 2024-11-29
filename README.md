@@ -59,8 +59,13 @@ git clone https://github.com/bozaigao/rnoh.git
 cd ..
 yarn install
 ```
-
 ![image](./dir.png)
+
+5. 运行项目
+
+直接使用DevEco Studio打开harmony然后运行项目
+如果出现依赖报错问题，请先执行以下sync操作：
+![image](./sync.png)
 
 # 运行效果图
 ![image](./demo.png)
