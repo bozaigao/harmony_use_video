@@ -2,11 +2,11 @@
 
 ## 项目简介
 
-本项目旨在演示 React Native 项目集成 `react-native-video` 插件在鸿蒙系统(HarmonyOS)上的运行表现。由于目前鸿蒙系统相关的 RN SDK 未开源，本项目提供了一个可行的解决方案。
+本项目旨在演示 React Native 项目集成 [`react-native-video`](https://github.com/react-native-oh-library/react-native-video/tree/sig) 插件在鸿蒙系统(HarmonyOS)上的运行表现。由于目前鸿蒙系统相关的 RN SDK 未开源，本项目提供了一个可行的解决方案。
 
 ## 功能特性
 
-- 完整展示 `react-native-video` 在鸿蒙系统上的适配方案
+- 完整展示 [`react-native-video`](https://github.com/react-native-oh-library/react-native-video/tree/sig) 在鸿蒙系统上的适配方案
 - 提供视频播放基础功能演示
 - 解决鸿蒙系统 RN SDK 不开源的相关问题
 
