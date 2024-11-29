@@ -1,79 +1,59 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# RN Video 鸿蒙系统适配演示
 
-# Getting Started
+## 项目简介
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+本项目旨在演示 React Native 项目集成 `react-native-video` 插件在鸿蒙系统(HarmonyOS)上的运行表现。由于目前鸿蒙系统相关的 RN SDK 未开源，本项目提供了一个可行的解决方案。
 
-## Step 1: Start the Metro Server
+## 功能特性
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- 完整展示 `react-native-video` 在鸿蒙系统上的适配方案
+- 提供视频播放基础功能演示
+- 解决鸿蒙系统 RN SDK 不开源的相关问题
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## 环境要求
 
-```bash
-# using npm
-npm start
+- React Native >= 0.63.0
+- react-native-video >= 5.0.0
+- HarmonyOS 2.0 及以上
+- Node.js >= 14.0.0
+- Yarn
 
-# OR using Yarn
-yarn start
-```
+## 安装步骤
 
-## Step 2: Start your Application
+1. 克隆项目
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+git clone [项目地址]
 
-### For Android
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
+2. 创建并进入 libs 目录
 
-### For iOS
+mkdir libs
+cd libs
 
-```bash
-# using npm
-npm run ios
+3. 克隆依赖项目
 
-# OR using Yarn
-yarn ios
-```
+# 克隆鸿蒙RN适配核心库
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+git clone https://github.com/bozaigao/react-native-harmony.git
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+# 初始化C++子模块
+cd react-native-harmony
+git submodule update --init --recursive
+cd ..
 
-## Step 3: Modifying your App
+# 克隆鸿蒙端Native适配代码
 
-Now that you have successfully run the app, let's modify it.
+git clone https://github.com/bozaigao/rnoh.git
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+4. 返回项目根目录并安装依赖
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+cd ..
+yarn install
 
-## Congratulations! :tada:
+├── libs/
+│ ├── react-native-harmony
+│ ├── rnoh
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# 运行效果图
+![image](./demo.png)
