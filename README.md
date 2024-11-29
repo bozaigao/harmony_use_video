@@ -22,34 +22,43 @@
 
 1. 克隆项目
 
+```bash
 git clone git@github.com:bozaigao/harmony_use_video.git
-
+```
 
 
 2. 项目根目录创建并进入 libs 目录
 
+```bash  
 mkdir libs
 cd libs
+```
 
 3. 克隆依赖项目
 
 # 克隆鸿蒙RN适配核心库
-
+```bash
 git clone https://github.com/bozaigao/react-native-harmony.git
+```
 
 # 初始化相关C++子模块
+```bash
 cd react-native-harmony
 git submodule update --init --recursive
 cd ..
+```
 
 # 克隆鸿蒙端Native适配代码
-
+```bash
 git clone https://github.com/bozaigao/rnoh.git
+```
 
 4. 返回项目根目录并安装依赖
 
+```bash
 cd ..
 yarn install
+```
 
 ![image](./dir.png)
 
