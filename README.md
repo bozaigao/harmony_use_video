@@ -67,5 +67,5 @@ yarn install
 如果出现依赖报错问题，请先执行以下sync操作：
 ![image](./sync.png)
 
-# 运行效果图
+# Hormony运行效果图
 ![image](./demo.png)
