@@ -22,11 +22,11 @@
 
 1. 克隆项目
 
-git clone [项目地址]
+git clone git@github.com:bozaigao/harmony_use_video.git
 
 
 
-2. 创建并进入 libs 目录
+2. 项目根目录创建并进入 libs 目录
 
 mkdir libs
 cd libs
@@ -37,7 +37,7 @@ cd libs
 
 git clone https://github.com/bozaigao/react-native-harmony.git
 
-# 初始化C++子模块
+# 初始化相关C++子模块
 cd react-native-harmony
 git submodule update --init --recursive
 cd ..
