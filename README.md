@@ -51,9 +51,7 @@ git clone https://github.com/bozaigao/rnoh.git
 cd ..
 yarn install
 
-├── libs/
-│ ├── react-native-harmony
-│ ├── rnoh
+![image](./dir.png)
 
 # 运行效果图
 ![image](./demo.png)
