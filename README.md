@@ -54,7 +54,6 @@ cd ..
 cd ..
 yarn install
 ```
-![image](./dir.png)
 
 5. Sync然后运行项目
 
