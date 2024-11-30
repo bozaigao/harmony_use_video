@@ -62,7 +62,7 @@ yarn install
 hdc rport tcp:8081 tcp:8081
 yarn start
 ```
-[`hdc相关配置请参考：`](https://gitee.com/openharmony-sig/ohos_react_native/blob/0.72.5-ohos-5.0-release/docs/zh-cn/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#%E5%88%9B%E5%BB%BAreact-native%E5%B7%A5%E7%A8%8B)
+[`hdc相关配置参考`](https://gitee.com/openharmony-sig/ohos_react_native/blob/0.72.5-ohos-5.0-release/docs/zh-cn/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#%E5%88%9B%E5%BB%BAreact-native%E5%B7%A5%E7%A8%8B)
 
 ### 6. 生产模式：RN端打包js文件到reqources/rawfile目录
 
