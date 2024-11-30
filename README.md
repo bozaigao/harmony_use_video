@@ -30,6 +30,7 @@ git clone git@github.com:bozaigao/harmony_use_video.git
 2. 项目根目录创建并进入 libs 目录
 
 ```bash  
+cd harmony_use_video
 mkdir libs
 cd libs
 ```
