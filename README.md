@@ -56,7 +56,20 @@ cd ..
 yarn install
 ```
 
-5. Sync然后运行项目
+5. 开发模式：绑定端口启动Metro本地服务（首先确保Harmony模拟器已经启动运行）
+
+```bash
+hdc rport tcp:8081 tcp:8081
+yarn start
+```
+
+6. 生产模式：RN端打包js文件到reqources/rawfile目录
+
+```bash
+yarn dev
+```
+
+7. Sync然后运行项目
 
 直接使用DevEco Studio打开harmony然后执行sync
 最后点击run运行项目：
