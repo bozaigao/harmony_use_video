@@ -20,14 +20,14 @@
 
 ## 安装步骤
 
-# 1. 克隆项目
+### 1. 克隆项目
 
 ```bash
 git clone git@github.com:bozaigao/harmony_use_video.git
 ```
 
 
-# 2. 项目根目录创建并进入 libs 目录
+### 2. 项目根目录创建并进入 libs 目录
 
 ```bash  
 cd harmony_use_video
@@ -35,7 +35,7 @@ mkdir libs
 cd libs
 ```
 
-# 3. 克隆依赖项目
+### 3. 克隆依赖项目
 
 克隆鸿蒙RN适配核心库
 ```bash
@@ -49,27 +49,27 @@ git submodule update --init --recursive
 cd ..
 ```
 
-# 4. 返回项目根目录并安装依赖
+### 4. 返回项目根目录并安装依赖
 
 ```bash
 cd ..
 yarn install
 ```
 
-# 5. 开发模式：绑定端口启动Metro本地服务（首先确保Harmony模拟器已经启动运行）
+### 5. 开发模式：绑定端口启动Metro本地服务（首先确保Harmony模拟器已经启动运行）
 
 ```bash
 hdc rport tcp:8081 tcp:8081
 yarn start
 ```
 
-# 6. 生产模式：RN端打包js文件到reqources/rawfile目录
+### 6. 生产模式：RN端打包js文件到reqources/rawfile目录
 
 ```bash
 yarn dev
 ```
 
-# 7. Sync然后运行项目
+### 7. Sync然后运行项目
 
 直接使用DevEco Studio打开harmony然后执行sync
 最后点击run运行项目：
