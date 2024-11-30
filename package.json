@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@react-native-oh-tpl/react-native-video": "^5.2.1-0.2.32",
-    "@react-native-oh/react-native-harmony": "file:libs/react-native-harmony",
+    "@react-native-oh/react-native-harmony": "^0.72.43",
     "patch-package": "^8.0.0",
     "react": "18.2.0",
     "react-native": "0.72.5"

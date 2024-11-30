@@ -38,19 +38,14 @@ cd libs
 
 # 克隆鸿蒙RN适配核心库
 ```bash
-git clone https://github.com/bozaigao/react-native-harmony.git
+git clone git@github.com:bozaigao/rnoh.git
 ```
 
 # 初始化相关C++子模块
 ```bash
-cd react-native-harmony
+cd rnoh
 git submodule update --init --recursive
 cd ..
-```
-
-# 克隆鸿蒙端Native适配代码
-```bash
-git clone https://github.com/bozaigao/rnoh.git
 ```
 
 4. 返回项目根目录并安装依赖
