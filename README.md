@@ -56,10 +56,10 @@ yarn install
 ```
 ![image](./dir.png)
 
-5. 运行项目
+5. Sync然后运行项目
 
-直接使用DevEco Studio打开harmony然后运行项目
-如果出现依赖报错问题，请先执行以下sync操作：
+直接使用DevEco Studio打开harmony然后执行sync
+最后点击run运行项目：
 ![image](./sync.png)
 
 # Harmony运行效果图
